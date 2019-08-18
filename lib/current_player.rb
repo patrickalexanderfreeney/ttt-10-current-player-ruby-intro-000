@@ -6,3 +6,10 @@ def turn_count(board)
   counter += 1 
   end
 end
+
+def current_player(board)
+  if turn_count % 2
+  return "x"
+  else
+    return "o"
+end
