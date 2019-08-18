@@ -1,7 +1,7 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 counter = 0
 def turn_count(board)
-  board.each do |space|
+  board.each do |board|
   while counter > 9
   counter += 1
   end
